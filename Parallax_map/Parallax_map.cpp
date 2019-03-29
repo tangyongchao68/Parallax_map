@@ -60,10 +60,10 @@ Mat SAD::computerSAD(Mat&L, Mat&R) {
 
 int main()
 {
-	Mat left = imread("./im0.png");
-	Mat right = imread("./im1.png");
-//	Mat left = imread("./rectifyImageL.bmp");
-//	Mat right = imread("./rectifyImageR.bmp");
+//	Mat left = imread("./im0.png");
+//	Mat right = imread("./im1.png");
+	Mat left = imread("./rectifyImageL.bmp");
+	Mat right = imread("./rectifyImageR.bmp");
 	//-------ÕºœÒœ‘ æ-----------
 	namedWindow("leftimag");
 	imshow("leftimag", left);
